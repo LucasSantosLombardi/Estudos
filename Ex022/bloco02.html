@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brincando com Posicionamento de Imagens</title>
+    <style>
+        article {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+        }
+        
+        .bloco{
+            height: 600px;
+            width: 600px;
+            border: 2px dashed black;
+            display: flex;
+
+        }
+
+        #bloco1{
+            background-image: url("Imagens/wallpaper003.jpg");
+            background-position: right center;
+        }
+
+        #bloco2{
+            background-image: url("Imagens/wallpaper006.jpg");
+            background-position: center center;
+        }
+
+        #bloco3{
+            background-image: url("Imagens/wallpaper005.jpg");
+            
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <div class="bloco" id="bloco1">
+        </div>
+        <div class="bloco" id="bloco2">
+        </div>
+        <div class="bloco" id="bloco3">
+        </div>
+    </article>
+    
+</body>
+</html>
+
